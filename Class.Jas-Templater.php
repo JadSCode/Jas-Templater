@@ -12,7 +12,7 @@
      */
 
 
-    class B7r_Tpl
+    class JasTpl
 
     {
 
@@ -292,6 +292,7 @@
 
 
 
+         
 
         /**
          * @name   : _functions_callback
