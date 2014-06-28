@@ -90,7 +90,7 @@
          */
         private function check_output($file)
               {
-              	$read_File = false;
+              	    $read_File = false;
                       if(file_exists($file))
                        {
                           $check_file = @fopen($file,'r');
