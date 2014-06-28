@@ -90,14 +90,15 @@
          */
         private function check_output($file)
               {
+              		  $read_File = false;
                       if(file_exists($file))
                        {
-                          $Check_file = @fopen($file,'r');
-                          $Read_File  = @fread($Check_file,filesize($file));
-                          @fclose($check);
+                          $check_file = @fopen($file,'r');
+                          $read_File  = @fread($check_file,filesize($file));
+                          @fclose($check_file);
 
                        }
-                     return  $Read_File?$Read_File:false;
+                     return  $read_File;
 
               }
 
